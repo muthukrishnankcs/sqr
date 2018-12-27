@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameterization Test Suite">
+    <test name="Testing Parameterization">
+        <parameter name="repo" value="Repo123"/>
+        <classes>
+            <class name="files.TestCases.Repository_Scenarios" />
+        </classes>
+    </test>
+</suite>
