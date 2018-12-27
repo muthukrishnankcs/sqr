@@ -1,13 +1,13 @@
-package files.businessComponents;
+package files.BusinessFunctions;
 
 import io.restassured.response.Response;
-import files.scriptHelper.*;
+import files.POJOClasses.*;
 
 
 import static io.restassured.RestAssured.given;
 
-public class GitRepoUtils {
-    public GitRepoUtils()
+public class GitRepoMethods {
+    public GitRepoMethods()
     {
         // CPOnsuturetir
     }

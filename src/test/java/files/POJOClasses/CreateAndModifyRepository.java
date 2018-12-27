@@ -1,4 +1,4 @@
-package files.scriptHelper;
+package files.POJOClasses;
 
 public class CreateAndModifyRepository {
         private String has_issues;

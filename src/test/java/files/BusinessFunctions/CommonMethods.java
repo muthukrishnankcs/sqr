@@ -1,10 +1,10 @@
-package files.businessComponents;
+package files.BusinessFunctions;
 
 import java.util.Random;
 
-public class CommonMethodUtils {
+public class CommonMethods {
 
-    public CommonMethodUtils()
+    public CommonMethods()
     {
 
     }

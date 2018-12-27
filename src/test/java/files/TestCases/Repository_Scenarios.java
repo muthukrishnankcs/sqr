@@ -1,27 +1,27 @@
-package files.componentGroups;
+package files.TestCases;
 
-import files.businessComponents.*;
+import files.BusinessFunctions.*;
 import files.excelUtility.*;
-import files.scriptHelper.*;
+import files.POJOClasses.*;
 
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.testng.annotations.Test;
 
 
-public class Repository_Scenarios extends ServerUtils {
+public class Repository_Scenarios extends BaseClass {
     @Test
     public void CreateRepositoryAndListoutReposAndEdit()  {
         // Below Code will Create New Repository
-        int value = CommonMethodUtils.generateRandomNumber();
+        int value = CommonMethods.generateRandomNumber();
         CreateAndModifyRepository payload = new CreateAndModifyRepository();
         payload.setName(String.valueOf(value));
         System.out.println("Repo Need to be Created:"+payload.getName());
-        OutcomeRepositoryResponse response = GitRepoUtils.createRepo(payload);
+        OutcomeRepositoryResponse response = GitRepoMethods.createRepo(payload);
         Assert.assertEquals("Expected Name and Actual Name is Not Same",payload.getName(),response.getName());
 
         // Below Code will List Repos Present
-        OutcomeRepositoryResponse[] listResponse = GitRepoUtils.listRepo();
+        OutcomeRepositoryResponse[] listResponse = GitRepoMethods.listRepo();
         System.out.println("Length of Response   :"+listResponse.length);
         for(OutcomeRepositoryResponse repoResponse : listResponse){
             System.out.println("ID   :"+repoResponse.getId());
@@ -32,7 +32,7 @@ public class Repository_Scenarios extends ServerUtils {
         CreateAndModifyRepository modifyPayload = new CreateAndModifyRepository();
         modifyPayload.setName(value+"Modified");
         System.out.println("Repo Need to be Modified with this name:"+modifyPayload.getName());
-        OutcomeRepositoryResponse modifyResponse  = GitRepoUtils.modifyRepo(modifyPayload,payload);
+        OutcomeRepositoryResponse modifyResponse  = GitRepoMethods.modifyRepo(modifyPayload,payload);
         System.out.println("Modified Response Name is :"+modifyResponse.getName());
         Assert.assertEquals("Verified Modified Name is not Present",modifyPayload.getName(),modifyResponse.getName());
     }
@@ -42,14 +42,14 @@ public class Repository_Scenarios extends ServerUtils {
 
         // Below Code will create Repo
         CreateAndModifyRepository payload = new CreateAndModifyRepository();
-        payload.setName(String.valueOf(CommonMethodUtils.generateRandomNumber()));
+        payload.setName(String.valueOf(CommonMethods.generateRandomNumber()));
         System.out.println("Repo Need to be Created:"+payload.getName());
-        OutcomeRepositoryResponse createResponse = GitRepoUtils.createRepo(payload);
+        OutcomeRepositoryResponse createResponse = GitRepoMethods.createRepo(payload);
         Assert.assertEquals("Expected Name and Actual Name is Not Same",payload.getName(),createResponse.getName());
 
         // Below Code will Delete Repo which created in first step
         System.out.println("Repo Need to be Deleted:"+payload.getName());
-        Response deleteResponse = GitRepoUtils.deleteRepo(createResponse);
+        Response deleteResponse = GitRepoMethods.deleteRepo(createResponse);
 
     }
 
@@ -63,13 +63,13 @@ public class Repository_Scenarios extends ServerUtils {
         payload.setName(String.valueOf(NAME));
         payload.setDescription(DESCRIPTION);
         System.out.println("Repo Need to be Created:"+payload.getName());
-        OutcomeRepositoryResponse createResponse = GitRepoUtils.createRepo(payload);
+        OutcomeRepositoryResponse createResponse = GitRepoMethods.createRepo(payload);
         Assert.assertEquals("Expected Name and Actual Name is Not Same",payload.getName(),createResponse.getName());
 
         // Below Code will Delete Repo which created in first step
         System.out.println("Repo Need to be Deleted:"+payload.getName());
 
-        Response deleteResponse = GitRepoUtils.deleteRepo(createResponse);
+        Response deleteResponse = GitRepoMethods.deleteRepo(createResponse);
 
 
 
