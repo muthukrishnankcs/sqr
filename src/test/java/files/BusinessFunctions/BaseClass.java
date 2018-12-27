@@ -1,9 +1,8 @@
-package files.businessComponents;
+package files.BusinessFunctions;
 
 import io.restassured.RestAssured;
 import io.restassured.authentication.PreemptiveBasicAuthScheme;
 //import org.apache.logging.log4j.Logger;
-import org.testng.annotations.BeforeClass;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -15,11 +14,11 @@ import java.util.Properties;
 //import org.apache.logging.log4j.Logger;
 
 
-public class ServerUtils {
+public class BaseClass {
     InputStream inputStream;
     Properties prop = new Properties();
 //   final static Logger logger = Logger.
-    public ServerUtils()
+    public BaseClass()
     {
 
         InputStream input = null;

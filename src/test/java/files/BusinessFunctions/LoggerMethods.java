@@ -1,9 +1,9 @@
-package files.businessComponents;
+package files.BusinessFunctions;
 import org.apache.log4j.Logger;
-public class LoggerUtils {
-    static Logger logger = Logger.getLogger(LoggerUtils.class.getName());
+public class LoggerMethods {
+    static Logger logger = Logger.getLogger(LoggerMethods.class.getName());
     public static void main(String[] args) {
-        System.setProperty("log_dir", LoggerUtils.class.getSimpleName());
+        System.setProperty("log_dir", LoggerMethods.class.getSimpleName());
         logger.debug("This is debug message");
         logger.info("This is info message");
         logger.warn("This is warn message");

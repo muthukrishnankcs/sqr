@@ -1,4 +1,4 @@
-package files.scriptHelper;
+package files.POJOClasses;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
