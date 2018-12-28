@@ -17,6 +17,7 @@ public class ExcelUtils extends PropertyClass{
     public static Object[][] ReadRepositoryData() throws IOException {
         XSSFWorkbook workbook;
         XSSFSheet worksheet;
+        PropertyClass propertyClass=new PropertyClass();
 //        XSSFCell cell;
         DataFormatter formatter = new DataFormatter();
         // Import excel sheet.
