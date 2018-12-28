@@ -1,5 +1,5 @@
 package files.excelUtility;
-
+import files.BusinessFunctions.PropertyClass;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -11,7 +11,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class ExcelUtils {
+public class ExcelUtils extends PropertyClass{
+
     @DataProvider
     public static Object[][] ReadRepositoryData() throws IOException {
         XSSFWorkbook workbook;
@@ -19,10 +20,9 @@ public class ExcelUtils {
 //        XSSFCell cell;
         DataFormatter formatter = new DataFormatter();
         // Import excel sheet.
-        File src = new File("CreateRepositories.xlsx");
-
-
-//        FileInputStream finput = new FileInputStream(src);
+        String cwd = new File("").getAbsolutePath();
+        File src = new File(cwd+prop.getProperty("RepoExcel"));
+        System.out.println("Path of File:"+src);
 
         // Load the file.
         FileInputStream fileInputStream = new FileInputStream(src); //Excel sheet file location get mentioned here
