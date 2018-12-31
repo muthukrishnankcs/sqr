@@ -6,6 +6,7 @@ import files.POJOClasses.*;
 
 import io.restassured.response.Response;
 import org.junit.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 
@@ -74,5 +75,23 @@ public class Repository_Scenarios extends BaseClass {
 
 
     }
+
+    @Test
+    @Parameters("repo")
+    public void CreateRepositoryAndDeleteRepositoryUsingParameter(String repo)  {
+
+        // Below Code will create Repo
+        CreateAndModifyRepository payload = new CreateAndModifyRepository();
+        payload.setName(repo);
+        System.out.println("Repo Need to be Created:"+payload.getName());
+        OutcomeRepositoryResponse createResponse = GitRepoMethods.createRepo(payload);
+        Assert.assertEquals("Expected Name and Actual Name is Not Same",payload.getName(),createResponse.getName());
+
+        // Below Code will Delete Repo which created in first step
+        System.out.println("Repo Need to be Deleted:"+payload.getName());
+        Response deleteResponse = GitRepoMethods.deleteRepo(createResponse);
+
+    }
+ //@Test
 
 }
