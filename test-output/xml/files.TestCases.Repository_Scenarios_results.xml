@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing Parameterization"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="26.910">
+  <properties />
+  
+            <testcase name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" time="0.0" classname="files.testCases.Repository_Scenarios">
+          <skipped />
+    </testcase>
+  
+            <testcase name="CreateRepositoryAndDeleteRepository" time="13.333" classname="files.testCases.Repository_Scenarios" />
+                <testcase name="CreateRepositoryAndDeleteRepositoryUsingParameter" time="4.400" classname="files.testCases.Repository_Scenarios" />
+                <testcase name="CreateRepositoryAndListoutReposAndEdit" time="9.177" classname="files.testCases.Repository_Scenarios" />
+      
+</testsuite>

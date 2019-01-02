@@ -4,7 +4,7 @@ package files.reusableLibrary;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import files.POJOClasses.Request.GitApiPojo;
 import files.POJOClasses.Response.Repo;
-import files.Utilities.Reporting;
+import files.utilities.Reporting;
 import sun.security.pkcs.ParsingException;
 
 import java.io.File;

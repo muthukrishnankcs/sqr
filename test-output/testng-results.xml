@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="80" passed="80">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parameterization Test Suite" duration-ms="278615" started-at="2018-12-31T08:23:48Z" finished-at="2018-12-31T08:28:27Z">
+    <groups>
+    </groups>
+    <test name="Testing Parameterization" duration-ms="278615" started-at="2018-12-31T08:23:48Z" finished-at="2018-12-31T08:28:27Z">
+      <class name="files.testCases.Repository_Scenarios">
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@1040be71]" name="CreateRepositoryAndDeleteRepository" duration-ms="8378" started-at="2018-12-31T13:53:48Z" finished-at="2018-12-31T13:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@25be7b63]" name="CreateRepositoryAndDeleteRepository" duration-ms="3159" started-at="2018-12-31T13:53:57Z" finished-at="2018-12-31T13:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@28dcca0c]" name="CreateRepositoryAndDeleteRepository" duration-ms="3110" started-at="2018-12-31T13:54:00Z" finished-at="2018-12-31T13:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@2a693f59]" name="CreateRepositoryAndDeleteRepository" duration-ms="3026" started-at="2018-12-31T13:54:03Z" finished-at="2018-12-31T13:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@304bb45b]" name="CreateRepositoryAndDeleteRepository" duration-ms="2949" started-at="2018-12-31T13:54:06Z" finished-at="2018-12-31T13:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@312aa7c]" name="CreateRepositoryAndDeleteRepository" duration-ms="3082" started-at="2018-12-31T13:54:09Z" finished-at="2018-12-31T13:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@3f4faf53]" name="CreateRepositoryAndDeleteRepository" duration-ms="3043" started-at="2018-12-31T13:54:12Z" finished-at="2018-12-31T13:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@433defed]" name="CreateRepositoryAndDeleteRepository" duration-ms="3284" started-at="2018-12-31T13:54:15Z" finished-at="2018-12-31T13:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@45d84a20]" name="CreateRepositoryAndDeleteRepository" duration-ms="3108" started-at="2018-12-31T13:54:18Z" finished-at="2018-12-31T13:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@4a8355dd]" name="CreateRepositoryAndDeleteRepository" duration-ms="3064" started-at="2018-12-31T13:54:21Z" finished-at="2018-12-31T13:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@4c163e3]" name="CreateRepositoryAndDeleteRepository" duration-ms="3169" started-at="2018-12-31T13:54:24Z" finished-at="2018-12-31T13:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@4d0d9fe7]" name="CreateRepositoryAndDeleteRepository" duration-ms="3066" started-at="2018-12-31T13:54:28Z" finished-at="2018-12-31T13:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@52f27fbd]" name="CreateRepositoryAndDeleteRepository" duration-ms="2978" started-at="2018-12-31T13:54:31Z" finished-at="2018-12-31T13:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@533bda92]" name="CreateRepositoryAndDeleteRepository" duration-ms="3284" started-at="2018-12-31T13:54:34Z" finished-at="2018-12-31T13:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@536f2a7e]" name="CreateRepositoryAndDeleteRepository" duration-ms="3318" started-at="2018-12-31T13:54:37Z" finished-at="2018-12-31T13:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@548a24a]" name="CreateRepositoryAndDeleteRepository" duration-ms="3189" started-at="2018-12-31T13:54:40Z" finished-at="2018-12-31T13:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@6f10d5b6]" name="CreateRepositoryAndDeleteRepository" duration-ms="6152" started-at="2018-12-31T13:54:43Z" finished-at="2018-12-31T13:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@723ca036]" name="CreateRepositoryAndDeleteRepository" duration-ms="3107" started-at="2018-12-31T13:54:50Z" finished-at="2018-12-31T13:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@7fd50002]" name="CreateRepositoryAndDeleteRepository" duration-ms="3011" started-at="2018-12-31T13:54:53Z" finished-at="2018-12-31T13:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepository()[pri:0, instance:files.testCases.Repository_Scenarios@c430e6c]" name="CreateRepositoryAndDeleteRepository" duration-ms="3331" started-at="2018-12-31T13:54:56Z" finished-at="2018-12-31T13:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepository -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@1040be71]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3042" started-at="2018-12-31T13:54:59Z" finished-at="2018-12-31T13:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@25be7b63]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3069" started-at="2018-12-31T13:55:02Z" finished-at="2018-12-31T13:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@28dcca0c]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="2984" started-at="2018-12-31T13:55:05Z" finished-at="2018-12-31T13:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@2a693f59]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="2967" started-at="2018-12-31T13:55:08Z" finished-at="2018-12-31T13:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@304bb45b]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3015" started-at="2018-12-31T13:55:11Z" finished-at="2018-12-31T13:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@312aa7c]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3028" started-at="2018-12-31T13:55:14Z" finished-at="2018-12-31T13:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@3f4faf53]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3640" started-at="2018-12-31T13:55:17Z" finished-at="2018-12-31T13:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@433defed]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3042" started-at="2018-12-31T13:55:21Z" finished-at="2018-12-31T13:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@45d84a20]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3110" started-at="2018-12-31T13:55:24Z" finished-at="2018-12-31T13:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@4a8355dd]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3112" started-at="2018-12-31T13:55:27Z" finished-at="2018-12-31T13:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@4c163e3]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3370" started-at="2018-12-31T13:55:30Z" finished-at="2018-12-31T13:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@4d0d9fe7]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3002" started-at="2018-12-31T13:55:33Z" finished-at="2018-12-31T13:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@52f27fbd]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3152" started-at="2018-12-31T13:55:36Z" finished-at="2018-12-31T13:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@533bda92]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3487" started-at="2018-12-31T13:55:40Z" finished-at="2018-12-31T13:55:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@536f2a7e]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3376" started-at="2018-12-31T13:55:43Z" finished-at="2018-12-31T13:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@548a24a]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3108" started-at="2018-12-31T13:55:47Z" finished-at="2018-12-31T13:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@6f10d5b6]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="3187" started-at="2018-12-31T13:55:50Z" finished-at="2018-12-31T13:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@723ca036]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="2222" started-at="2018-12-31T13:55:53Z" finished-at="2018-12-31T13:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@7fd50002]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="1845" started-at="2018-12-31T13:55:55Z" finished-at="2018-12-31T13:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()[pri:0, instance:files.testCases.Repository_Scenarios@c430e6c]" name="CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider" duration-ms="1753" started-at="2018-12-31T13:55:57Z" finished-at="2018-12-31T13:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@1040be71]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1799" started-at="2018-12-31T13:55:59Z" finished-at="2018-12-31T13:56:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@25be7b63]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1682" started-at="2018-12-31T13:56:00Z" finished-at="2018-12-31T13:56:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@28dcca0c]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1763" started-at="2018-12-31T13:56:02Z" finished-at="2018-12-31T13:56:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@2a693f59]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1749" started-at="2018-12-31T13:56:04Z" finished-at="2018-12-31T13:56:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@304bb45b]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1920" started-at="2018-12-31T13:56:06Z" finished-at="2018-12-31T13:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@312aa7c]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1799" started-at="2018-12-31T13:56:08Z" finished-at="2018-12-31T13:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@3f4faf53]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1717" started-at="2018-12-31T13:56:09Z" finished-at="2018-12-31T13:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@433defed]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="2082" started-at="2018-12-31T13:56:11Z" finished-at="2018-12-31T13:56:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@45d84a20]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1783" started-at="2018-12-31T13:56:13Z" finished-at="2018-12-31T13:56:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@4a8355dd]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1636" started-at="2018-12-31T13:56:15Z" finished-at="2018-12-31T13:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@4c163e3]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1723" started-at="2018-12-31T13:56:17Z" finished-at="2018-12-31T13:56:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@4d0d9fe7]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="2182" started-at="2018-12-31T13:56:18Z" finished-at="2018-12-31T13:56:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@52f27fbd]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="1687" started-at="2018-12-31T13:56:20Z" finished-at="2018-12-31T13:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@533bda92]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="2449" started-at="2018-12-31T13:56:22Z" finished-at="2018-12-31T13:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@536f2a7e]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="2946" started-at="2018-12-31T13:56:25Z" finished-at="2018-12-31T13:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@548a24a]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="3155" started-at="2018-12-31T13:56:28Z" finished-at="2018-12-31T13:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@6f10d5b6]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="3033" started-at="2018-12-31T13:56:31Z" finished-at="2018-12-31T13:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@723ca036]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="3285" started-at="2018-12-31T13:56:34Z" finished-at="2018-12-31T13:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@7fd50002]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="3540" started-at="2018-12-31T13:56:37Z" finished-at="2018-12-31T13:56:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndDeleteRepositoryUsingParameter(java.lang.String)[pri:0, instance:files.testCases.Repository_Scenarios@c430e6c]" name="CreateRepositoryAndDeleteRepositoryUsingParameter" duration-ms="2996" started-at="2018-12-31T13:56:41Z" finished-at="2018-12-31T13:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Repo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndDeleteRepositoryUsingParameter -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@1040be71]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4488" started-at="2018-12-31T13:56:44Z" finished-at="2018-12-31T13:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@25be7b63]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4380" started-at="2018-12-31T13:56:48Z" finished-at="2018-12-31T13:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@28dcca0c]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4595" started-at="2018-12-31T13:56:52Z" finished-at="2018-12-31T13:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@2a693f59]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="5132" started-at="2018-12-31T13:56:57Z" finished-at="2018-12-31T13:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@304bb45b]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="7683" started-at="2018-12-31T13:57:02Z" finished-at="2018-12-31T13:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@312aa7c]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4597" started-at="2018-12-31T13:57:10Z" finished-at="2018-12-31T13:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@3f4faf53]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="7580" started-at="2018-12-31T13:57:14Z" finished-at="2018-12-31T13:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@433defed]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4884" started-at="2018-12-31T13:57:22Z" finished-at="2018-12-31T13:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@45d84a20]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="7765" started-at="2018-12-31T13:57:27Z" finished-at="2018-12-31T13:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@4a8355dd]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4757" started-at="2018-12-31T13:57:35Z" finished-at="2018-12-31T13:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@4c163e3]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4673" started-at="2018-12-31T13:57:39Z" finished-at="2018-12-31T13:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@4d0d9fe7]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4443" started-at="2018-12-31T13:57:44Z" finished-at="2018-12-31T13:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@52f27fbd]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4387" started-at="2018-12-31T13:57:49Z" finished-at="2018-12-31T13:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@533bda92]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="5046" started-at="2018-12-31T13:57:53Z" finished-at="2018-12-31T13:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@536f2a7e]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="5535" started-at="2018-12-31T13:57:58Z" finished-at="2018-12-31T13:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@548a24a]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4689" started-at="2018-12-31T13:58:04Z" finished-at="2018-12-31T13:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@6f10d5b6]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4435" started-at="2018-12-31T13:58:08Z" finished-at="2018-12-31T13:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@723ca036]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4707" started-at="2018-12-31T13:58:13Z" finished-at="2018-12-31T13:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@7fd50002]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="5127" started-at="2018-12-31T13:58:17Z" finished-at="2018-12-31T13:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+        <test-method status="PASS" signature="CreateRepositoryAndListoutReposAndEdit()[pri:0, instance:files.testCases.Repository_Scenarios@c430e6c]" name="CreateRepositoryAndListoutReposAndEdit" duration-ms="4392" started-at="2018-12-31T13:58:22Z" finished-at="2018-12-31T13:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepositoryAndListoutReposAndEdit -->
+      </class> <!-- files.testCases.Repository_Scenarios -->
+    </test> <!-- Testing Parameterization -->
+  </suite> <!-- Parameterization Test Suite -->
+</testng-results>

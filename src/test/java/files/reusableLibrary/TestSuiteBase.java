@@ -1,6 +1,6 @@
 package files.reusableLibrary;
 
-import files.Utilities.TestUtil;
+import files.utilities.TestUtil;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeSuite;
 
