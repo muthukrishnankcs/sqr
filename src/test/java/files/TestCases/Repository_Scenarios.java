@@ -13,19 +13,8 @@ import org.testng.annotations.Test;
 
 
 public class Repository_Scenarios extends BaseClass {
-
- //   PropertyClass propertyClass=new PropertyClass();
-    private  String NAME,DESCRIPTION;
-    @Factory(dataProvider = "ReadRepositoryData", dataProviderClass = ExcelUtils.class)
-    public Repository_Scenarios(String NAME, String DESCRIPTION){
-        this.NAME=NAME;
-        this.DESCRIPTION=DESCRIPTION;
-    }
-
-
     @Test
     public void CreateRepositoryAndListoutReposAndEdit()  {
-
         // Below Code will Create New Repository
         int value = CommonMethods.generateRandomNumber();
         CreateAndModifyRepository payload = new CreateAndModifyRepository();
@@ -68,9 +57,9 @@ public class Repository_Scenarios extends BaseClass {
 
     }
 
- //   @Test(dataProvider = "ReadRepositoryData", dataProviderClass = ExcelUtils.class)
-    @Test(enabled = false)
-    public void CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider()  {
+
+    @Test(dataProvider = "ReadRepositoryData", dataProviderClass = ExcelUtils.class)
+    public void CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider(String NAME, String DESCRIPTION)  {
 
         System.out.println("Name is        :"+NAME);
         System.out.println("Description is :"+DESCRIPTION);
