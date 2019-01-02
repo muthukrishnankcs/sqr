@@ -31,14 +31,14 @@ public class TestBase extends Common {
 			//config Properties
 			APP_LOGS.debug("Proceed to start Loading config.Properties Files :");
 			CONFIG = new Properties();
-			FileInputStream ip = new FileInputStream(".\\src\\test\\java\\files\\logs\\config.properties");
+			FileInputStream ip = new FileInputStream("./src/test/java/files/logs/config.properties");
 			CONFIG.load(ip);
 			APP_LOGS.debug("config.properties Files Loaded Sucessfully :");
 
 			//xls file
 			APP_LOGS.debug("Proceed to start Loading XLS Files :");
-			Sprint1xls = new Xls_Reader(".\\src\\test\\java\\files\\xls\\Sprint_1.xlsx");
-			suiteXls  = new Xls_Reader(".\\src\\test\\java\\files\\xls\\Suite.xlsx");
+			Sprint1xls = new Xls_Reader("./src/test/java/files/xls/Sprint_1.xlsx");
+			suiteXls  = new Xls_Reader("./src/test/java/files/xls/Suite.xlsx");
 
 			//Create OutputDirectory
 			APP_LOGS.debug("Proceed to Create the OutputDirectory :");
@@ -46,7 +46,7 @@ public class TestBase extends Common {
 			
 			//Delete All Files Under 'DownloadFile' Folder
 			APP_LOGS.debug("Proceed to Delete All Files Under 'DownloadFile' Folder :");
-			CommonFunctions.delete_Files(CommonFunctions.GetCanonicalPath()+"\\DownloadFile");
+			CommonFunctions.delete_Files(CommonFunctions.GetCanonicalPath()+"/DownloadFile");
 			
 			
 			APP_LOGS.debug("Proceed to Set the OutputDirectory :");
