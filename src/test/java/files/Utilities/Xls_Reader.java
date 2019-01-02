@@ -129,18 +129,18 @@ public class Xls_Reader {
 	}
 
 
-	
+
 	/*public String getCellData_new(String sheetName,int colNum,int rowNum){
 		try{
 			if(rowNum <=0)
 				return "";
-		
+
 		int index = workbook.getSheetIndex(sheetName);
 
 		if(index==-1)
 			return "";
-		
-	
+
+
 		sheet = workbook.getSheetAt(index);
 		row = sheet.getRow(rowNum-1);
 		if(row==null)
@@ -148,11 +148,11 @@ public class Xls_Reader {
 		cell = row.getCell(colNum);
 		if(cell==null)
 			return "";
-		
+
 	  if(cell.getCellType()==Cell.CELL_TYPE_STRING)
 		  return cell.getStringCellValue();
 	  else if(cell.getCellType()==Cell.CELL_TYPE_NUMERIC){
-		  
+
 		  String cellText  = String.valueOf(cell.getNumericCellValue());
 		  if (HSSFDateUtil.isCellDateFormatted(cell)) {
 	           // format in form of M/D/YY
@@ -165,17 +165,17 @@ public class Xls_Reader {
 	           cellText = cal.get(Calendar.MONTH)+1 + "/" +
 	                      cal.get(Calendar.DAY_OF_MONTH) + "/" +
 	                      cellText;
-	           
+
 	          // System.out.println(cellText);
 
 	         }
 		  return cellText;
-		  
+
 	  }
-	  else if(cell.getCellType()==Cell.CELL_TYPE_FORMULA ){		  
+	  else if(cell.getCellType()==Cell.CELL_TYPE_FORMULA ){
 	        switch(cell.getCachedFormulaResultType()) {
 	            case Cell.CELL_TYPE_NUMERIC:
-	            	String formulaText =String.valueOf(cell.getNumericCellValue());  
+	            	String formulaText =String.valueOf(cell.getNumericCellValue());
 	            	  return formulaText;
 //	            	break;
 	            case Cell.CELL_TYPE_STRING:
@@ -187,11 +187,11 @@ public class Xls_Reader {
 	  }
 	  else if(cell.getCellType()==Cell.CELL_TYPE_BLANK)
 	      return "";
-	  else 
+	  else
 		  return String.valueOf(cell.getBooleanCellValue());
 		}
 		catch(Exception e){
-			
+
 			e.printStackTrace();
 			return "row"+rowNum+" or column "+colNum +" does not exist  in xls";
 		}

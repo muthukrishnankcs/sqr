@@ -23,7 +23,7 @@ public class GenericKeywords extends TestBase{
 
             APP_LOGS.debug("Read Json File : "+jsonFileName);
             ObjectMapper objectMapper = new ObjectMapper();
-            String path = new File(".").getCanonicalPath().concat("\\src\\com\\sprinklr\\resources\\"+jsonFileName);
+            String path = new File(".").getCanonicalPath().concat("/src/com/sprinklr/resources/"+jsonFileName);
             GitApiPojo input = objectMapper.readValue(new File(path), GitApiPojo.class);
             APP_LOGS.debug("Read JSON File Successfully : "+jsonFileName);
             return input;

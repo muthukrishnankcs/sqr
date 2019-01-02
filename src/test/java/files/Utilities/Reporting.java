@@ -56,20 +56,20 @@ public class Reporting {
 		GenericKeywords.screenshotNo++;
 		//Reporter.log("<font color='blue'>Manual verification point : <b>"+comment+"</b></font>" , true);
 		screenshot("Screenshot"+GenericKeywords.screenshotNo);
-		Common.embedScreenshot("blue",GenericKeywords.outputDirectory+"\\Screenshots"+"\\Screenshot"+GenericKeywords.screenshotNo);
+		Common.embedScreenshot("blue",GenericKeywords.outputDirectory+"/Screenshots"+"/Screenshot"+GenericKeywords.screenshotNo);
 	}
 	
 	
 	public static void screenshot(String filename){
 		
-		String scrPath=GenericKeywords.outputDirectory+"\\Screenshots";
+		String scrPath=GenericKeywords.outputDirectory+"/Screenshots";
 		File file = new File(scrPath);
 	    file.mkdir();
 	    try {
 	        Robot robot = new Robot();
 	        Rectangle captureSize = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 	        BufferedImage bufferedImage = robot.createScreenCapture(captureSize);
-	        File outputfile = new File(scrPath+"\\"+filename+".jpg");
+	        File outputfile = new File(scrPath+"/"+filename+".jpg");
 	        ImageIO.write(bufferedImage, "jpg", outputfile);       
        		//Reporting.log("Taken screenshot of failing screen");
 	    }

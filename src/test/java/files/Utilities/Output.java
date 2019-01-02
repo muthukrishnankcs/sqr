@@ -45,7 +45,7 @@ public class Output
   	
   	try 
   	{
-  		GenericKeywords.outputDirectory = curdir.getCanonicalPath()+ "\\FinalReports\\" + yr +"_"+ mon+"_" +day+"_"+hr+"_"+min+"_"+sec+"_"+am_pm;
+  		GenericKeywords.outputDirectory = curdir.getCanonicalPath()+ "/FinalReports/" + yr +"_"+ mon+"_" +day+"_"+hr+"_"+min+"_"+sec+"_"+am_pm;
 	    boolean success = (new File(GenericKeywords.outputDirectory)).mkdir();
 	    if (success) {
 	    	Reporting.log("Directory Create Successflyy");

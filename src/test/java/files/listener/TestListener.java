@@ -11,17 +11,17 @@ public class TestListener extends TestListenerAdapter {
 	
    @Override
    public void onTestFailure(ITestResult result) {
-		String srcPath= GenericKeywords.outputDirectory+"\\Screenshots";
+		String srcPath= GenericKeywords.outputDirectory+"/Screenshots";
 		Reporter.setCurrentTestResult(result);
 		if (GenericKeywords.testFailure)
 		{
-			GenericKeywords.embedScreenshot("red",srcPath+"\\TestFailure"+GenericKeywords.failureNo);
+			GenericKeywords.embedScreenshot("red",srcPath+"/TestFailure"+GenericKeywords.failureNo);
 			GenericKeywords.testFailure=false;
 		}
 		else
 		{
 			Reporting.screenshot(result.getName());
-			GenericKeywords.embedScreenshot("red",srcPath+"\\"+result.getName());
+			GenericKeywords.embedScreenshot("red",srcPath+"/"+result.getName());
 		}
 		Reporter.log("<font color='red'>");
 		Reporter.setCurrentTestResult(null);
