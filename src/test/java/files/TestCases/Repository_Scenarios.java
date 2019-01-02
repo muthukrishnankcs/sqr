@@ -4,8 +4,11 @@ import files.BusinessFunctions.*;
 import files.excelUtility.*;
 import files.POJOClasses.*;
 
+import files.reportUtility.ExtentReports.ExtentTestManager;
 import io.restassured.response.Response;
 import org.junit.Assert;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
 
 
@@ -40,18 +43,20 @@ public class Repository_Scenarios extends BaseClass {
     @Test
     public void CreateRepositoryAndDeleteRepository()  {
 
+
         // Below Code will create Repo
         CreateAndModifyRepository payload = new CreateAndModifyRepository();
         payload.setName(String.valueOf(CommonMethods.generateRandomNumber()));
         System.out.println("Repo Need to be Created:"+payload.getName());
         OutcomeRepositoryResponse createResponse = GitRepoMethods.createRepo(payload);
-        Assert.assertEquals("Expected Name and Actual Name is Not Same",payload.getName(),createResponse.getName());
+        Assert.assertEquals("Expected Name and Actual Name is Not SameKKK",payload.getName(),createResponse.getName());
 
         // Below Code will Delete Repo which created in first step
         System.out.println("Repo Need to be Deleted:"+payload.getName());
         Response deleteResponse = GitRepoMethods.deleteRepo(createResponse);
 
     }
+
 
     @Test(dataProvider = "ReadRepositoryData", dataProviderClass = ExcelUtils.class)
     public void CreateRepositoryAndDeleteRepositoryUsingExcelDataProvider(String NAME, String DESCRIPTION)  {
@@ -74,5 +79,23 @@ public class Repository_Scenarios extends BaseClass {
 
 
     }
+
+    @Test
+    @Parameters("repo")
+    public void CreateRepositoryAndDeleteRepositoryUsingParameter(String repo)  {
+
+        // Below Code will create Repo
+        CreateAndModifyRepository payload = new CreateAndModifyRepository();
+        payload.setName(repo);
+        System.out.println("Repo Need to be Created:"+payload.getName());
+        OutcomeRepositoryResponse createResponse = GitRepoMethods.createRepo(payload);
+        Assert.assertEquals("Expected Name and Actual Name is Not Same",payload.getName(),createResponse.getName());
+
+        // Below Code will Delete Repo which created in first step
+        System.out.println("Repo Need to be Deleted:"+payload.getName());
+        Response deleteResponse = GitRepoMethods.deleteRepo(createResponse);
+
+    }
+ //@Test
 
 }
