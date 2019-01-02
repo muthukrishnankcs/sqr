@@ -1,9 +1,9 @@
 package files.reusableLibrary;
 
 
-import files.Utilities.Common;
-import files.Utilities.Output;
-import files.Utilities.Xls_Reader;
+import files.utilities.Common;
+import files.utilities.Output;
+import files.utilities.Xls_Reader;
 import org.apache.log4j.Logger;
 import org.testng.TestNG;
 

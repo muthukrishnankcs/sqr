@@ -1,6 +1,6 @@
 package files.listener;
 
-import files.Utilities.Reporting;
+import files.utilities.Reporting;
 import files.reusableLibrary.GenericKeywords;
 import org.testng.ITestResult;
 import org.testng.Reporter;

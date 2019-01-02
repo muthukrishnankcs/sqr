@@ -9,7 +9,7 @@
     <test name="Testing Parameterization">
         <parameter name="repo" value="Repo123"/>
         <classes>
-            <class name="files.TestCases.Repository_Scenarios" />
+            <class name="files.testCases.RepositoryScenarios" />
         </classes>
     </test>
 

@@ -1,5 +1,5 @@
 package files.excelUtility;
-import files.BusinessFunctions.PropertyClass;
+import files.businessFunctions.PropertyClass;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -14,7 +14,7 @@ import java.io.IOException;
 public class ExcelUtils extends PropertyClass{
 
     @DataProvider
-    public static Object[][] ReadRepositoryData() throws IOException {
+    public static Object[][] readRepositoryData() throws IOException {
         XSSFWorkbook workbook;
         XSSFSheet worksheet;
         PropertyClass propertyClass=new PropertyClass();
