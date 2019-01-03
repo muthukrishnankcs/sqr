@@ -1,4 +1,4 @@
-package files.TestCases;
+package files.testCases;
 
 import files.POJOClasses.OrgRepo;
 import files.businessFunctions.BaseClass;

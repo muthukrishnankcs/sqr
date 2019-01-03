@@ -1,4 +1,4 @@
-package files.TestCases;
+package files.testCases;
 
 import files.businessFunctions.*;
 import files.excelUtility.*;
