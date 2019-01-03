@@ -54,5 +54,16 @@ public class GitRepoMethods {
                 .extract().response();
         return deleteResponse;
     }
+    /*public static orgRepo createRepo(OrgRepo repo)
+    {
+        OrgRepo response  = given()
+                .header("content-type", "application/json")
+                .body(repo)
+                .when()
+                .post("/orgs/SprinklrOrg/repos")
+                .as(OrgRepo.class);
+        return response;*/
 
-}
+    }
+
+
