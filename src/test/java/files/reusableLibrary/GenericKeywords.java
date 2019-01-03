@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import files.POJOClasses.Request.GitApiPojo;
 import files.POJOClasses.Response.Repo;
 import files.utilities.Reporting;
-import sun.security.pkcs.ParsingException;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,7 +27,7 @@ public class GenericKeywords extends TestBase{
             APP_LOGS.debug("Read JSON File Successfully : "+jsonFileName);
             return input;
         }
-        catch(ParsingException e)
+        catch(IOException e)
         {
             APP_LOGS.debug("Error : Error in reading JSON : "+e);
             Reporting.fail("ERROR :Reading JSON :"+e);
@@ -46,7 +45,7 @@ public class GenericKeywords extends TestBase{
             APP_LOGS.debug("String to Pojo is Converted Successfully: ");
             return input;
         }
-        catch(ParsingException e)
+        catch(IOException e)
         {
             APP_LOGS.debug("Error : Error in converting String to Pojo : "+e);
             Reporting.fail("ERROR :Convert String to Pojo :"+e);
