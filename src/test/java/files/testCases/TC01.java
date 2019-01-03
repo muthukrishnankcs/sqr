@@ -1,5 +1,6 @@
 package files.testCases;
 
+import files.POJOClasses.OutcomeRepositoryResponse;
 import files.businessFunctions.AuthenticationMethods;
 import files.POJOClasses.Response.Repo;
 import files.utilities.ErrorUtil;
@@ -14,7 +15,7 @@ import org.testng.annotations.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
-public class TCUS004 extends TestSuiteBase {
+public class TC01 extends TestSuiteBase {
 
 	
 	String runmodes[] = null;
