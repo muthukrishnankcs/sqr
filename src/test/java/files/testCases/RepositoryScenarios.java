@@ -1,9 +1,9 @@
 package files.testCases;
-
+import static io.restassured.RestAssured.given;
 import files.businessFunctions.*;
 import files.excelUtility.*;
 import files.POJOClasses.*;
-
+import org.hamcrest.Matchers;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.testng.annotations.Parameters;
@@ -94,6 +94,14 @@ public class RepositoryScenarios extends BaseClass {
         Response deleteResponse = GitRepoMethods.deleteRepo(createResponse);
 
     }
- //@Test
+
+    @Test
+    // get languages api returns an empty list
+    public void getLanguage() {
+
+        given().when().get("/repos/pramatiimaginea/abcHello-World/languages")
+                .then().statusCode(200).and().body("isEmpty()", Matchers.is(true));
+
+    }
 
 }
