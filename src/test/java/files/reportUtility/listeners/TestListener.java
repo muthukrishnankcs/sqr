@@ -1,11 +1,11 @@
-package files.reportUtility.Listeners;
+package files.reportUtility.listeners;
 
 import com.relevantcodes.extentreports.LogStatus;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import files.reportUtility.ExtentReports.ExtentManager;
-import files.reportUtility.ExtentReports.ExtentTestManager;
+import files.reportUtility.extentReports.ExtentManager;
+import files.reportUtility.extentReports.ExtentTestManager;
 
 public class TestListener implements ITestListener {
 
