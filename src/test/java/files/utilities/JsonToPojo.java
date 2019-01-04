@@ -1,7 +1,6 @@
 package files.utilities;
 
 import com.sun.codemodel.JCodeModel;
-import org.apache.commons.io.FileUtils;
 import org.jsonschema2pojo.*;
 import org.jsonschema2pojo.rules.RuleFactory;
 import java.io.File;
