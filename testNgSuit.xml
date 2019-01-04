@@ -2,14 +2,18 @@
 
 <suite name="Parameterization Test Suite">
     <listeners>
-        <listener class-name="files.reportUtility.Listeners.TestListener"/>
-        <listener class-name="files.reportUtility.Listeners.AnnotationTransformer"/>
+        <listener class-name="files.reportUtility.listeners.TestListener"/>
+        <listener class-name="files.reportUtility.listeners.AnnotationTransformer"/>
 
     </listeners>
     <test name="Testing Parameterization">
         <parameter name="repo" value="Repo123"/>
         <classes>
-            <class name="files.testCases.RepositoryScenarios" />
+            <class name="files.testCases.RepositoryScenarios" >
+                <methods>
+                    <include name="createRepositoryAndListoutReposAndEdit"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
