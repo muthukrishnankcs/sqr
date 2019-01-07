@@ -8,31 +8,44 @@ import java.io.IOException;
 import java.net.URL;
 
 public class JsonToPojo {
+
+    static String inputPath = "./src/test/java/files/resources/";
+    static String outputPath ="./src/test/java";
+    static String packageLabel = "files.POJOClasses.Request";
+    static String inputJson = "CreateRepo";
+
     public static void main(String args[])
     {
-        convertJsonToPojo("CreateRepo", "files.POJOClasses.Request");
+        convertJsonToPojo(packageLabel);
+        convertJsonToPojo(inputJson, packageLabel);
     }
 
-    public static void convertJsonToPojo(String jsonFileName, String packageName) {
-        File inputJson= new File("./src/test/java/files/resources/"+jsonFileName+".json");
-        File outputPojoDirectory=new File("./src/test/java");
-        File pojoFile = new File(outputPojoDirectory+"/"+packageName+"/"+jsonFileName+".java");
-        outputPojoDirectory.mkdirs();
+    public static void convertJsonToPojo(String packageName) {
+        File inputJson= new File(inputPath+"Default.json");
+        File outputPojoDirectory=new File(outputPath);
         try {
-            if(!pojoFile.exists())
-            {
-                new JsonToPojo().convert2JSON(inputJson.toURI().toURL(), outputPojoDirectory, packageName, inputJson.getName().replace(".json", ""));
-            }
-            else
-            {
-                System.out.println("File already Exists: "+jsonFileName);
-            }
+            new JsonToPojo().convert2JSON(inputJson.toURI().toURL(), outputPojoDirectory, packageName, inputJson.getName().replace(".json", ""));
+
         } catch (IOException e) {
             // TODO Auto-generated catch block
             System.out.println("Encountered issue while converting to pojo: "+e.getMessage());
             e.printStackTrace();
         }
     }
+
+    public static void convertJsonToPojo(String jsonFileName, String packageName) {
+        File inputJson= new File(inputPath+jsonFileName+".json");
+        File outputPojoDirectory=new File(outputPath);
+        try {
+            new JsonToPojo().convert2JSON(inputJson.toURI().toURL(), outputPojoDirectory, packageName, inputJson.getName().replace(".json", ""));
+
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            System.out.println("Encountered issue while converting to pojo: "+e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
     public static void convert2JSON(URL inputJson, File outputPojoDirectory, String packageName, String className) throws IOException{
         JCodeModel codeModel = new JCodeModel();
         URL source = inputJson;
