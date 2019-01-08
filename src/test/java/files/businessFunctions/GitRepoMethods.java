@@ -6,7 +6,12 @@ import files.POJOClasses.*;
 
 import static io.restassured.RestAssured.given;
 
+
+
 public class GitRepoMethods {
+    static final String createlistRepoUrl = "/user/repos";
+    static final String modifydeleteRepoUrl = "/repos/pramatiimaginea/";
+
     public GitRepoMethods()
     {
         // CPOnsuturetir
@@ -18,7 +23,7 @@ public class GitRepoMethods {
                 .header("content-type", "application/json")
                 .body(payload)
                 .when()
-                .post("/user/repos")
+                .post(createlistRepoUrl)
                 .as(OutcomeRepositoryResponse.class);
         return response;
 
@@ -29,7 +34,7 @@ public class GitRepoMethods {
         OutcomeRepositoryResponse[] listResponse = given()
                 .header("content-type", "application/json")
                 .when()
-                .get("/user/repos")
+                .get(createlistRepoUrl)
                 .as(OutcomeRepositoryResponse[].class);
         return listResponse;
     }
@@ -40,7 +45,7 @@ public class GitRepoMethods {
                 .header("content-type", "application/json")
                 .body(modifyPayload)
                 .when()
-                .patch("/repos/pramatiimaginea/" + payload.getName())
+                .patch(modifydeleteRepoUrl+ payload.getName())
                 .as(OutcomeRepositoryResponse.class);
         return modifyResponse;
     }
@@ -48,22 +53,13 @@ public class GitRepoMethods {
     public static Response deleteRepo(OutcomeRepositoryResponse response) {
         Response deleteResponse = given()
                 .when()
-                .delete("repos/pramatiimaginea/" + response.getName())
+                .delete(modifydeleteRepoUrl + response.getName())
                 .then()
                 .statusCode(204)
                 .extract().response();
         return deleteResponse;
     }
-    /*public static orgRepo createRepo(OrgRepo repo)
-    {
-        OrgRepo response  = given()
-                .header("content-type", "application/json")
-                .body(repo)
-                .when()
-                .post("/orgs/SprinklrOrg/repos")
-                .as(OrgRepo.class);
-        return response;*/
 
-    }
+}
 
 
