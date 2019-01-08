@@ -1,9 +1,9 @@
-package files.reportUtility.listeners;
+package files.reportUtility.Listeners;
 
 import com.relevantcodes.extentreports.LogStatus;
+import files.reportUtility.ExtentReports.ExtentTestManager;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
-import files.reportUtility.extentReports.ExtentTestManager;
 
 public class Retry implements IRetryAnalyzer {
 
