@@ -1,7 +1,7 @@
-package files.reportUtility.Listeners;
+package files.reportUtility.listeners;
 
 import com.relevantcodes.extentreports.LogStatus;
-import files.reportUtility.ExtentReports.ExtentTestManager;
+import files.reportUtility.extentReports.ExtentTestManager;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
