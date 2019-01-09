@@ -12,6 +12,10 @@
             <class name="files.testCases.RepositoryScenarios" >
                 <methods>
                     <include name="createRepositoryAndListoutReposAndEdit"/>
+                    <include name="createRepositoryAndDeleteRepository"/>
+                    <include name="createRepositoryAndDeleteRepositoryUsingExcelDataProvider"/>
+                    <include name="createRepositoryAndDeleteRepositoryUsingParameter"/>
+                    <include name="getLanguage"/>
                 </methods>
             </class>
         </classes>
