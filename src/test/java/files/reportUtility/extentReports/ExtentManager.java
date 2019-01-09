@@ -1,4 +1,4 @@
-package files.reportUtility.ExtentReports;
+package files.reportUtility.extentReports;
 import com.relevantcodes.extentreports.ExtentReports;
 
 public class ExtentManager {
