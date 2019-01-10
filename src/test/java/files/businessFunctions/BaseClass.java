@@ -3,17 +3,17 @@ package files.businessFunctions;
 import io.restassured.RestAssured;
 import io.restassured.authentication.PreemptiveBasicAuthScheme;
 
-public class BaseClass extends PropertyClass  {
+public class BaseClass{
 
-    public BaseClass()
+    public static void setAuthentication()
     {
-        RestAssured.baseURI = prop.getProperty("BASE_URL");
+
+        RestAssured.baseURI = ConfigProperty.readConfig().getProperty("BASE_URL");
         System.out.println(RestAssured.baseURI);
         PreemptiveBasicAuthScheme authScheme = new PreemptiveBasicAuthScheme();
-        authScheme.setUserName(prop.getProperty("username"));
-        authScheme.setPassword(prop.getProperty("password"));
+        authScheme.setUserName(ConfigProperty.readConfig().getProperty("username"));
+        authScheme.setPassword(ConfigProperty.readConfig().getProperty("password"));
         RestAssured.authentication = authScheme;
-
 
     }
 
