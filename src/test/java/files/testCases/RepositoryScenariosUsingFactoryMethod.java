@@ -8,11 +8,18 @@ import com.files.excelUtility.ExcelUtils;
 
 import io.restassured.response.Response;
 import org.junit.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
 
 
-public class RepositoryScenariosUsingFactoryMethod extends BaseClass {
+public class RepositoryScenariosUsingFactoryMethod{
+
+    @BeforeClass
+    public void beforeClass()
+    {
+        BaseClass.setAuthentication();
+    }
 
     //   PropertyClass propertyClass=new PropertyClass();
     private  String NAME,DESCRIPTION;
