@@ -1,11 +1,7 @@
 package files.testCases;
 
-import files.POJOClasses.OrgRepo;
-import files.businessFunctions.BaseClass;
-import files.businessFunctions.CommonMethods;
-import io.restassured.RestAssured;
-import io.restassured.authentication.PreemptiveBasicAuthScheme;
-import org.testng.annotations.BeforeClass;
+import com.files.POJOClasses.OrgRepo;
+import com.files.businessFunctions.BaseClass;
 import org.testng.annotations.Test;
 import java.util.Random;
 import static io.restassured.RestAssured.given;

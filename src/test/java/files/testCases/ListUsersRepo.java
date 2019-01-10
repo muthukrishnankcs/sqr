@@ -1,15 +1,13 @@
 package files.testCases;
 
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import files.POJOClasses.InitializeVariables;
+import com.files.POJOClasses.InitializeVariables;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ListUsersRepo {
