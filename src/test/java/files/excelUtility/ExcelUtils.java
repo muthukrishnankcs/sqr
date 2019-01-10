@@ -1,5 +1,5 @@
 package files.excelUtility;
-import files.businessFunctions.ConfigProperty;
+import files.businessFunctions.PropertyClass;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -11,13 +11,13 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class ExcelUtils extends ConfigProperty {
+public class ExcelUtils extends PropertyClass{
 
     @DataProvider
     public static Object[][] readRepositoryData() throws IOException {
         XSSFWorkbook workbook;
         XSSFSheet worksheet;
-        ConfigProperty propertyClass=new ConfigProperty();
+        PropertyClass propertyClass=new PropertyClass();
 //        XSSFCell cell;
         DataFormatter formatter = new DataFormatter();
         // Import excel sheet.

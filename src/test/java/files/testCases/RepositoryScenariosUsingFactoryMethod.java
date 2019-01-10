@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class RepositoryScenariosUsingFactoryMethod extends BaseClass {
 
-    //   ConfigProperty propertyClass=new ConfigProperty();
+    //   PropertyClass propertyClass=new PropertyClass();
     private  String NAME,DESCRIPTION;
     @Factory(dataProvider = "readRepositoryData", dataProviderClass = ExcelUtils.class)
     public RepositoryScenariosUsingFactoryMethod(String NAME, String DESCRIPTION){

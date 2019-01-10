@@ -6,21 +6,11 @@ import files.POJOClasses.*;
 import org.hamcrest.Matchers;
 import io.restassured.response.Response;
 import org.junit.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 
-public class RepositoryScenarios {
-    @BeforeClass
-    public void beforeClass()
-    {
-        BaseClass.setAuthentication();
-    }
-
-
-
+public class RepositoryScenarios extends BaseClass {
     @Test
     public void createRepositoryAndListoutReposAndEdit()  {
         // Below Code will Create New Repository
