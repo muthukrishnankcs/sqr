@@ -9,8 +9,5 @@
         <module name="gitapis" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="gitapis" target="6" />
-    </bytecodeTargetLevel>
   </component>
 </project>

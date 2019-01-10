@@ -1,12 +1,11 @@
 package files.testCases;
 
-import files.POJOClasses.OutcomeRepositoryResponse;
-import files.businessFunctions.AuthenticationMethods;
-import files.POJOClasses.Response.Repo;
-import files.utilities.ErrorUtil;
-import files.utilities.TestUtil;
-import files.reusableLibrary.GenericKeywords;
-import files.reusableLibrary.TestSuiteBase;
+import com.files.businessFunctions.AuthenticationMethods;
+import com.files.POJOClasses.Response.Repo;
+import com.files.utilities.ErrorUtil;
+import com.files.utilities.TestUtil;
+import com.files.reusableLibrary.GenericKeywords;
+import com.files.reusableLibrary.TestSuiteBase;
 import io.restassured.http.ContentType;
 import org.testng.Assert;
 import org.testng.SkipException;

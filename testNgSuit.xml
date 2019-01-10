@@ -2,8 +2,8 @@
 
 <suite name="Parameterization Test Suite">
     <listeners>
-        <listener class-name="files.reportUtility.listeners.TestListener"/>
-        <listener class-name="files.reportUtility.listeners.AnnotationTransformer"/>
+        <listener class-name="com.files.reportUtility.listeners.TestListener"/>
+        <listener class-name="com.files.reportUtility.listeners.AnnotationTransformer"/>
 
     </listeners>
     <test name="Testing Parameterization">

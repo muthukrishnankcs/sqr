@@ -1,8 +1,10 @@
 package files.testCases;
 
-import files.businessFunctions.*;
-import files.excelUtility.*;
-import files.POJOClasses.*;
+import com.files.POJOClasses.CreateAndModifyRepository;
+import com.files.POJOClasses.OutcomeRepositoryResponse;
+import com.files.businessFunctions.BaseClass;
+import com.files.businessFunctions.GitRepoMethods;
+import com.files.excelUtility.ExcelUtils;
 
 import io.restassured.response.Response;
 import org.junit.Assert;
