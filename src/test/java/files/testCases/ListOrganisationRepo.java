@@ -2,11 +2,18 @@ package files.testCases;
 
 import com.files.POJOClasses.OrgRepo;
 import com.files.businessFunctions.BaseClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import java.util.Random;
 import static io.restassured.RestAssured.given;
 
-public class ListOrganisationRepo extends BaseClass {
+public class ListOrganisationRepo{
+    @BeforeClass
+    public void beforeClass()
+    {
+        BaseClass.setAuthentication();
+    }
+
     public String org = "SprinklrOrg";
     @Test
     public void createOrgRepo() {
