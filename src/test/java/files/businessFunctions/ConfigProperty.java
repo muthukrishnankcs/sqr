@@ -5,18 +5,18 @@ import java.io.InputStream;
 import java.util.*;
 
 
-public class PropertyClass {
-    InputStream inputStream;
+public class ConfigProperty {
+    static InputStream inputStream;
     public static Properties prop = new Properties();
 
-
-    public PropertyClass() {
+    public static Properties readConfig() {
         try {
             String propFileName = "config.properties";
-            inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
+            inputStream = ConfigProperty.class.getClassLoader().getResourceAsStream(propFileName);
 
             if (inputStream != null) {
                 prop.load(inputStream);
+                return prop;
             } else {
                 throw new FileNotFoundException("property file '" + propFileName + "' not found in the classpath");
             }
@@ -28,8 +28,7 @@ public class PropertyClass {
             ex.printStackTrace();
         }
 
+        return null;
     }
-
-
 }
 
