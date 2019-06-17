@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Business Automation Test Suite">
+    <test name="Testing Business Scenarios">
+        <parameter name="query" value="select count(*) from employee where eid>100;"/>
+        <parameter name="expected" value="2"/>
+        <groups>
+            <run>
+                <include name="Employee"/>
+                <include name="Regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.sqrtest.BusinessValidation" >
+                <methods>
+                    <include name="salaryLessThan100"/>
+                    <include name="fetchEIDLessThan100"/>
+                    <include name="fetchBirthdayWeekly"/>
+                    <include name="fetchEIDExpMoreThan15"/>
+                </methods>
+            </class>
+            <class name="com.sqrtest.BusinessValidation2" ></class>
+        </classes>
+    </test>
+</suite>

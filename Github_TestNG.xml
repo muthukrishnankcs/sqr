@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameterization Test Suite">
+   <!-- <listeners>
+          <listener class-name="generic.listeners.TestListener"/>
+        <listener class-name="generic.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="Testing Parameterization">
+        <parameter name="repo" value="Repo123"/>
+        <classes>
+            <class name="com.sqrtest.BusinessValidation" >
+            <class name="com.sqrtest.ValidateBankDetails" >
+                <methods>
+                    <include name="createAndDeleteRepo"/>
+                    <include name="createAndDeleteRepoUsingLombok"/>
+                    <include name="createAndEditRepo"/>
+                    <include name="createRepositoryAndDeleteRepositoryUsingParameter"/>
+            &lt;!&ndash;    <include name="createRepositoryAndDeleteRepositoryUsingExcelDataProvider"/>&ndash;&gt;
+            </methods>
+        </class>
+        &lt;!&ndash;<class name="com.github.RepositoryScenariosUsingFactoryMethod" >
+            <methods>
+                <include name="createRepositoryAndDeleteRepositoryUsingFactoryMethod"/>
+                <include name="createAndEditRepoUsingFactoryMethod"/>
+            </methods>
+        </class> &ndash;&gt;
+            <class name="com.github.GitRepositoryScenariosWithHeaders" />
+            <class name="com.github.GitRepositoryScenariosUsingJsonObject" />
+        </classes>
+    </test>-->
+</suite>

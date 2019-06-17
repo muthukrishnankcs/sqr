@@ -1,0 +1,1 @@
+{"uuid":"26c75d7b-77bf-4954-b504-df6981ff2942","name":"com.app.CheckDBConnection.createConnection","description":"","start":1549634320957,"stop":1549634321638,"children":["0ee09f1b-59e8-4307-b392-d764c7e7ed26"],"befores":[{"name":"createConnection","status":"passed","stage":"finished","description":"","start":1549634320957,"stop":1549634321638}]}

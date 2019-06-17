@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameterization Test Suite">
+    <listeners>
+        <listener class-name="generic.listeners.TestListener"/>
+        <listener class-name="generic.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="Twitter Cases">
+        <classes>
+            <class name="com.twitter.Oauth2TwitterApi" />
+            <class name="com.twitter.OauthTwitterAPI" />
+        </classes>
+    </test>
+</suite>

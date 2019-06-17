@@ -1,0 +1,33 @@
+node {
+   def mvnHome
+   stage('Preparation') { // for display purposes
+      // Get some code from a GitHub repository
+      git credentialsId: '0ece1de4-99ed-4472-a4a1-d2be44cbd8da', url: 'https://gitlab.pramati.com/qa_framework_team/git_api_automation.git'
+      // Get the Maven tool.
+      // ** NOTE: This 'M3' Maven tool must be configured
+      // **       in the global configuration.           
+      mvnHome = tool 'Maven'
+   }
+   stage('Build') {
+      // Run the maven build
+      if (isUnix()) {
+         sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore compile"
+      } else {
+         bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore compile/)
+      }
+   }
+   stage('Test') {
+      // Run the maven build
+      sh "cp -R allure-report/history src/test/Reports/allure-results"
+      if (isUnix()) {
+         sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore test -Dsurefire.suiteXmlFiles=Github_TestNG.xml"
+      } else {
+         bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore test -Dsurefire.suiteXmlFiles=Github_TestNG.xml/)
+      }
+   }
+  stage('Results') {
+      sh "cp -R src/test/Reports/allure-results target"
+      allure jdk: '', results: [[path: 'target/allure-results']]
+      publishHTML([allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: 'src/test/Reports/extentreports/', reportFiles: 'ExtentReportResults.html', reportName: 'ExtentReport', reportTitles: 'Report'])
+  }
+}
