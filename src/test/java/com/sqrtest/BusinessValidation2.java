@@ -13,7 +13,7 @@ public class BusinessValidation2 extends DatabaseUtils {
 
     @Test(groups={"TestMethod1"})
     @Parameters({"query","expected"})
-    public void salaryLessThan100(@Optional("select count(*) from employee where salary<100;") String query, @Optional("2") int expected) throws SQLException{
+    public void salaryLessThan1000(@Optional("select count(*) from employee where salary<100;") String query, @Optional("2") int expected) throws SQLException{
         getConnection();
         ResultSet r = getResultSet(query);
         while(r.next()) {
