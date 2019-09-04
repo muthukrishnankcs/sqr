@@ -23,7 +23,7 @@ public class BusinessValidation extends DatabaseUtils {
 
     @Test(groups={"Employee","Regression"})
     @Parameters({"query"})
-    public void fetchEIDLessThan1000(@Optional("select eid,name,salary from employee where salary<100;") String query) throws SQLException{
+    public void fetchEIDLessThan500(@Optional("select eid,name,salary from employee where salary<100;") String query) throws SQLException{
         getConnection();
         ResultSet r = getResultSet(query);
         while(r.next()) {
